@@ -1,0 +1,135 @@
+#mih1 {
+  color: firebrick;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Arial, Serif;
+}
+#greenhead {
+  color: yellowgreen;
+  font-family: Arial, serif;
+  font-size: 35px;
+  padding-left: 80px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; padding-right: 20px;
+}
+
+.rightmenu{
+  display: flex;
+  padding-right: 55px;
+}
+
+.menubutton {
+  display: flex;
+  padding: 17px;
+}
+img {
+  padding-left: 10px;
+  height: 430px;
+  width: 290px;
+
+}
+.background{
+  background-color: lightgray;
+  display: flex;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 45px;
+}
+
+.foodall {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+
+}
+.description{
+  font-size: 21px;
+  font-family: Arial, serif;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+.browse{
+  font-weight: bold;
+}
+.healthyheader{
+  display: flex;
+  font-size: 45px;
+  font-weight: bolder;
+}
+.thumbnail{
+display: flex;
+}
+.box{
+  position: relative;
+}
+.strangefood{
+  position: absolute;
+  background-color: white;
+  color: black;
+  text-align: center;
+  bottom: 50px;
+  right: 0;
+  padding: 9px 15px;
+  font-weight: bold;
+  font-family: Arial, serif;
+}
+.pasta{
+  position: absolute;
+  background-color: white;
+  color: black;
+  text-align: center;
+  bottom: 50px;
+  right: 0px;
+  padding: 9px 15px;
+  font-weight: bold;
+  font-family: Arial;
+}
+.shrimp{
+  position: absolute;
+  background-color: white;
+  color: black;
+  text-align: center;
+  bottom: 50px;
+  right: 0px;
+  padding: 9px 20px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.shrimp2{
+  position: absolute;
+  background-color: yellowgreen;
+  color: black;
+  text-align: center;
+  bottom: 4px;
+  right: 0;
+  padding: 25px 20px 5px 55px;
+  font-family: Arial, serif;
+  font-weight: bold;
+}
+.pasta2{
+  position: absolute;
+  background-color: yellowgreen;
+  color: black;
+  text-align: center;
+  bottom: 4px;
+  right: 0;
+  padding: 25px 20px 5px 45px;
+  font-family: Arial, serif;
+  font-weight: bold;
+}
+.strangefood2{
+  position: absolute;
+  background-color: yellowgreen;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  bottom: 4px;
+  right: 0;
+  padding: 25px 20px 10px 45px;
+  font-family: Arial, serif;
+
+}
